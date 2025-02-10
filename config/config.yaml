@@ -1,0 +1,14 @@
+logger:
+  level: "local"
+server:
+  address: ":8080"
+  timeout: 4s
+  iddle_timeout: 60s
+  shutdown_timeout: 10s
+db:
+  port: 5432
+  username: "postgres"
+  password: "password"
+  name: "shop"
+  host: "db"
+secret: "secret_shop"
